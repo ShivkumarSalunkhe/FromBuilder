@@ -113,7 +113,7 @@ const FormHeader = (props) => {
   return (
     <div className="clearfix" style={styles.MainDiv}>
       <h4 className="" style={styles.FormTitle}>
-        Create New Form
+       Create New Form
       </h4>
       <div className="d-flex justify-content-end">
           {" "}
