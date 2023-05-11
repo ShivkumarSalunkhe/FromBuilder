@@ -1,0 +1,32 @@
+#root > div > div.container > div.clearfix > div.modal.show.d-block > div > div > div:nth-child(1) > div.react-form-builder-form > form > div > a{
+    display: none;
+  }
+  
+  #root > div > div.container > div.clearfix > div.modal.show.d-block > div > div > div:nth-child(1) > div.react-form-builder-form > form > div > button{
+    display: none;
+  }
+  
+  .react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range label[for="rangeStep"]{
+    display: none;
+  }
+  .react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range input[id="rangeStep"]{
+    display: none;
+  }
+  
+  .react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range label[for="defaultSelected"]{
+    display: none;
+  }
+  .react-form-builder .react-form-builder-preview .edit-form .form-group .form-group-range input[id="defaultSelected"]{
+    display: none;
+  }
+  
+  label[for="rangeMin"]::after {
+    content: " Value";
+    color: black;
+  }
+  
+  label[for="rangeMax"]::after {
+  content: " Value";
+    color: black;
+  } 
+  
